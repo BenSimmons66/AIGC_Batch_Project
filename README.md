@@ -37,11 +37,12 @@ ZHIPU_API_KEY=你的API_Key
 处理图片: python process_batch.py
 
 ### 项目结构
-text
-AIGC_Batch_Project/
+```
+·
 ├── .env                # 存储API Key
 ├── generate_batch.py   # 批量生成图片脚本
 ├── process_batch.py    # 批量处理图片脚本
 ├── images/             # 存放生成的原始图片
 ├── final_output/       # 存放处理后的成品图片
 └── README.md           # 项目说明文件
+```
