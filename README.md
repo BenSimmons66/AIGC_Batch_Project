@@ -25,3 +25,23 @@
 ### 2. 安装依赖库
 ```bash
 pip install requests Pillow python-dotenv
+```
+### 3. 配置API密钥
+在 智谱AI开放平台 注册并获取你的 API Key。
+
+在项目根目录下创建一个 .env 文件，并写入你的密钥：
+ZHIPU_API_KEY=你的API_Key
+### 4. 运行脚本
+生成图片: python generate_batch.py
+
+处理图片: python process_batch.py
+
+### 项目结构
+text
+AIGC_Batch_Project/
+├── .env                # 存储API Key
+├── generate_batch.py   # 批量生成图片脚本
+├── process_batch.py    # 批量处理图片脚本
+├── images/             # 存放生成的原始图片
+├── final_output/       # 存放处理后的成品图片
+└── README.md           # 项目说明文件
